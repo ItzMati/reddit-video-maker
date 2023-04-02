@@ -106,7 +106,7 @@ def main2(post1):
         mouse.wheel(delta=-3)
         time.sleep(1)
         ss = pyautogui.screenshot()
-        ss.save(Path(Path('images/main.png'))
+        ss.save(Path(Path('images/main.png')))
         keyboard.press_and_release('ctrl+w')
 
 
